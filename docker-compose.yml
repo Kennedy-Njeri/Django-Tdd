@@ -1,0 +1,14 @@
+version: "3"
+
+#Services
+services:
+  app: # service name
+    build:
+      context: .
+    ports:
+      - "8000:8000" #host:image"
+    volumes: # maps from local into docker image in realtime
+      - ./app:/app #host:image
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver"
