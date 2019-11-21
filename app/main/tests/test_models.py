@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.contrib.auth import get_user_model
-from .models import Tag
+from ..models import Tag
 
 
 def sample_user(email='mistakenz@gmail.com', password='password123'):
