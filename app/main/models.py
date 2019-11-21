@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
-
+from django.conf import settings
 
 class UserManager(BaseUserManager):
 
@@ -43,3 +43,5 @@ class User(AbstractBaseUser):
     def has_module_perms(self, app_label):
         """"Does the user have permissions to view the app `app_label`?"""
         return True
+
+
