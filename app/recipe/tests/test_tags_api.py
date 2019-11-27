@@ -23,3 +23,11 @@ class PublicTagsApiTests(TestCase):
         res = self.client.get(TAGS_URL)
 
         self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)
+
+class PrivateTagsApiTests(TestCase):
+    """Test the authorized user"""
+
+    def setUp(self):
+        self.user = get_user_model().objects.create_user(
+
+        )
