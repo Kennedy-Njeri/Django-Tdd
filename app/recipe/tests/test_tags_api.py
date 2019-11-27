@@ -29,5 +29,8 @@ class PrivateTagsApiTests(TestCase):
 
     def setUp(self):
         self.user = get_user_model().objects.create_user(
-
+            'mistakenz@gmail.com',
+            'password1234'
         )
+        self.client = APIClient()
+        self.client.force_authenticate(self.user)

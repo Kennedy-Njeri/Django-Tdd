@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="" />
+    <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="8702" />
+          <entry key="py" value="8874" />
           <entry key="txt" value="29" />
           <entry key="yml" value="225" />
         </counts>
@@ -47,7 +49,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="8702" />
+          <entry key="Python" value="8874" />
           <entry key="YAML" value="225" />
         </counts>
       </usages-collector>
@@ -73,11 +75,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="393">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1574887740000" expanded="true" signature="339:344" ph="..." />
+                <marker date="1574888075000" expanded="true" signature="339:344" ph="..." />
+                <marker date="1574888075000" expanded="true" signature="691:963" ph="..." />
               </folding>
             </state>
           </provider>
@@ -373,7 +376,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="23" width="1371" height="815" extended-state="0" />
+    <frame x="636" y="23" width="1371" height="815" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
@@ -599,11 +603,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="393">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <marker date="1574887740000" expanded="true" signature="339:344" ph="..." />
+            <marker date="1574888075000" expanded="true" signature="339:344" ph="..." />
+            <marker date="1574888075000" expanded="true" signature="691:963" ph="..." />
           </folding>
         </state>
       </provider>
