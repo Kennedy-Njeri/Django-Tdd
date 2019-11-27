@@ -38,7 +38,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="8429" />
+          <entry key="py" value="8519" />
           <entry key="txt" value="29" />
           <entry key="yml" value="225" />
         </counts>
@@ -47,7 +47,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="8429" />
+          <entry key="Python" value="8519" />
           <entry key="YAML" value="225" />
         </counts>
       </usages-collector>
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -210,8 +210,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="531" />
-    <option name="y" value="31" />
+    <option name="x" value="701" />
+    <option name="y" value="23" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
   </component>
@@ -372,14 +372,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="531" y="31" width="1371" height="815" extended-state="0" />
-    <editor active="true" />
+    <frame x="701" y="23" width="1371" height="815" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -514,20 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1574367646000" expanded="true" signature="172:173" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="172:178" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="833:838" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="1506:1741" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -597,10 +582,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1574367646000" expanded="true" signature="172:173" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="172:178" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="833:838" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="1506:1741" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
