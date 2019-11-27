@@ -40,7 +40,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="8874" />
+          <entry key="py" value="9058" />
           <entry key="txt" value="29" />
           <entry key="yml" value="225" />
         </counts>
@@ -49,7 +49,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="8874" />
+          <entry key="Python" value="9058" />
           <entry key="YAML" value="225" />
         </counts>
       </usages-collector>
@@ -75,12 +75,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="318">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1574888075000" expanded="true" signature="339:344" ph="..." />
-                <marker date="1574888075000" expanded="true" signature="691:963" ph="..." />
+                <marker date="1574888480000" expanded="true" signature="339:344" ph="..." />
+                <marker date="1574888480000" expanded="true" signature="692:1417" ph="..." />
               </folding>
             </state>
           </provider>
@@ -214,7 +214,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="636" />
+    <option name="x" value="316" />
     <option name="y" value="23" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
@@ -376,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="636" y="23" width="1371" height="815" extended-state="0" />
+    <frame x="508" y="23" width="1371" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -603,12 +603,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="318">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <marker date="1574888075000" expanded="true" signature="339:344" ph="..." />
-            <marker date="1574888075000" expanded="true" signature="691:963" ph="..." />
+            <marker date="1574888480000" expanded="true" signature="339:344" ph="..." />
+            <marker date="1574888480000" expanded="true" signature="692:1417" ph="..." />
           </folding>
         </state>
       </provider>
