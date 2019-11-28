@@ -5,11 +5,11 @@ from django.test import TestCase
 from rest_framework import status
 from rest_framework.test import APIClient
 
-from ...main.models import Tag
+from main.models import Tag
 
 from ..serializers import TagSerializer
 
-TAGS_URL = reversed('recipe:tag-list')
+TAGS_URL = reverse('recipe:tag-list')
 
 
 class PublicTagsApiTests(TestCase):
