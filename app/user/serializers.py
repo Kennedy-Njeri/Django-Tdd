@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model, authenticate
 from django.utils.translation import ugettext_lazy as _
 from rest_framework import serializers
+from django.utils.six import python_2_unicode_compatible
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -26,6 +27,7 @@ class UserSerializer(serializers.ModelSerializer):
         return user
 
 
+@python_2_unicode_compatible
 class AuthTokenSerializer(serializers.Serializer):
     """Serializer for the user authentication object"""
     email = serializers.CharField()
