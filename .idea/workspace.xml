@@ -84,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/user/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="86">
@@ -132,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="855">
               <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -221,8 +221,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="69" />
+    <option name="x" value="104" />
+    <option name="y" value="23" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
   </component>
@@ -256,6 +256,13 @@
               <item name="Tdd1" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tdd1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tdd1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tdd1" type="b2602c69:ProjectViewProjectNode" />
@@ -376,7 +383,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="69" width="1371" height="815" extended-state="0" />
+    <frame x="104" y="23" width="1371" height="815" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
@@ -568,20 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1574367646000" expanded="true" signature="172:173" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="172:178" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="833:838" ph="..." />
-            <marker date="1574367646000" expanded="true" signature="1506:1741" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -634,6 +627,20 @@
           <folding>
             <element signature="e#0#60#0" expanded="true" />
             <marker date="1575319925000" expanded="true" signature="995:1000" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1574367646000" expanded="true" signature="172:173" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="172:178" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="833:838" ph="..." />
+            <marker date="1574367646000" expanded="true" signature="1506:1741" ph="..." />
           </folding>
         </state>
       </provider>
