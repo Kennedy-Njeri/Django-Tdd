@@ -9,6 +9,7 @@ from .serializers import TagSerializer, IngredientSerializer
 
 class BaseRecipeAttrViewSet(viewsets.GenericViewSet,
                             mixins.ListModelMixin,
+                            mixins.RetrieveModelMixin,
                             mixins.CreateModelMixin):
     """Base viewset for user owned recipe attributes"""
     authentication_classes = (TokenAuthentication,)
