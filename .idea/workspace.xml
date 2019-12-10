@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +40,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="11371" />
+          <entry key="py" value="11381" />
           <entry key="txt" value="37" />
           <entry key="yml" value="228" />
         </counts>
@@ -50,7 +49,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="11371" />
+          <entry key="Python" value="11381" />
           <entry key="YAML" value="228" />
         </counts>
       </usages-collector>
@@ -120,11 +119,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="481">
+              <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
-                <marker date="1576003250000" expanded="true" signature="390:395" ph="..." />
+                <marker date="1576004222000" expanded="true" signature="923:928" ph="..." />
               </folding>
             </state>
           </provider>
@@ -196,8 +195,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="23" />
+    <option name="x" value="205" />
+    <option name="y" value="34" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
   </component>
@@ -365,7 +364,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="511" y="23" width="1371" height="815" extended-state="0" />
+    <frame x="477" y="137" width="1371" height="815" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
@@ -635,11 +635,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="481">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-            <marker date="1576003250000" expanded="true" signature="390:395" ph="..." />
+            <marker date="1576004222000" expanded="true" signature="923:928" ph="..." />
           </folding>
         </state>
       </provider>
