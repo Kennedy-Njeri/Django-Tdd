@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,8 +364,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="484" y="78" width="1371" height="815" extended-state="0" />
-    <editor active="true" />
+    <frame x="492" y="32" width="1371" height="815" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
