@@ -40,7 +40,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="12477" />
+          <entry key="py" value="12543" />
           <entry key="txt" value="37" />
           <entry key="yml" value="228" />
         </counts>
@@ -49,7 +49,7 @@
         <counts>
           <entry key="Dockerfile" value="160" />
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="12477" />
+          <entry key="Python" value="12543" />
           <entry key="YAML" value="228" />
         </counts>
       </usages-collector>
@@ -57,20 +57,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+            <state relative-caret-position="333">
+              <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1576680399000" expanded="true" signature="664:774" ph="..." />
+                <marker date="1576680710000" expanded="true" signature="664:774" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -197,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-35" />
-    <option name="y" value="93" />
+    <option name="x" value="169" />
+    <option name="y" value="36" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
   </component>
@@ -366,14 +366,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="93" width="1371" height="815" extended-state="0" />
+    <frame x="169" y="36" width="1371" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22648609" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -635,17 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1576680399000" expanded="true" signature="664:774" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -655,6 +644,17 @@
             <marker date="1576003036000" expanded="true" signature="370:375" ph="..." />
             <marker date="1576003036000" expanded="true" signature="750:755" ph="..." />
             <marker date="1576003036000" expanded="true" signature="2595:2600" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <marker date="1576680710000" expanded="true" signature="664:774" ph="..." />
           </folding>
         </state>
       </provider>
