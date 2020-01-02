@@ -211,12 +211,14 @@ class PrivateRecipeApiTests(TestCase):
 class RecipeImageUploadTests(TestCase):
     def setUp(self):
         self.client = APIClient()
-        self.user = get_user_model().objects.create_user('ken@gmail.com', 'test1234567')
+        self.user = get_user_model().objects.create_user(
+            'ken@gmail.com', 'test123'
+        )
         self.client.force_authenticate(self.user)
         self.recipe = sample_recipe(user=self.user)
 
     def tearDown(self):
-        """Make sure there no images lingering around after test function runs"""
+        """Make sure there no images lingering around"""
         self.recipe.image.delete()
 
     def test_upload_image_to_recipe(self):

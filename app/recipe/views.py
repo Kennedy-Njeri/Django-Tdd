@@ -7,7 +7,8 @@ from rest_framework.permissions import IsAuthenticated
 from main.models import Tag, Ingredient, Recipe
 
 from .serializers import TagSerializer, IngredientSerializer,\
-                         RecipeSerializer, RecipeDetailSerializer, RecipeImageSerializer
+                         RecipeSerializer, RecipeDetailSerializer,\
+                         RecipeImageSerializer
 
 
 class BaseRecipeAttrViewSet(viewsets.GenericViewSet,
@@ -66,7 +67,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
 
     @action(methods=['POST'], detail=True, url_path='upload-image')
     def upload_image(self, request, pk=None):
-        """Upload an image to a recipe of already exist i.e reason for using detail"""
+        """Upload an image to a recipe of already exist"""
         recipe = self.get_object()
         serializer = self.get_serializer(
             recipe,
