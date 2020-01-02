@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
         <counts>
           <entry key="Dockerfile" value="277" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="12601" />
+          <entry key="py" value="12612" />
           <entry key="txt" value="58" />
           <entry key="yml" value="228" />
         </counts>
@@ -60,7 +54,7 @@
         <counts>
           <entry key="Dockerfile" value="277" />
           <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Python" value="12601" />
+          <entry key="Python" value="12612" />
           <entry key="YAML" value="228" />
         </counts>
       </usages-collector>
@@ -109,17 +103,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state relative-caret-position="303">
+              <caret line="96" column="74" selection-start-line="96" selection-start-column="74" selection-end-line="96" selection-end-column="74" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1576159642000" expanded="true" signature="263:264" ph="..." />
-                <marker date="1576159642000" expanded="true" signature="263:269" ph="..." />
-                <marker date="1576159642000" expanded="true" signature="924:929" ph="..." />
-                <marker date="1576159642000" expanded="true" signature="2571:2576" ph="..." />
+                <marker date="1577967440000" expanded="true" signature="512:513" ph="..." />
+                <marker date="1577967440000" expanded="true" signature="512:518" ph="..." />
+                <marker date="1577967440000" expanded="true" signature="1173:1178" ph="..." />
+                <marker date="1577967440000" expanded="true" signature="2895:2900" ph="..." />
               </folding>
             </state>
           </provider>
@@ -167,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="165">
+              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -222,7 +216,6 @@
         <option value="$PROJECT_DIR$/app/user/serializers.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" />
-        <option value="$PROJECT_DIR$/app/main/models.py" />
         <option value="$PROJECT_DIR$/app/main/admin.py" />
         <option value="$PROJECT_DIR$/app/recipe/urls.py" />
         <option value="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" />
@@ -233,6 +226,7 @@
         <option value="$PROJECT_DIR$/app/app/settings.py" />
         <option value="$PROJECT_DIR$/app/app/urls.py" />
         <option value="$PROJECT_DIR$/app/main/tests/test_models.py" />
+        <option value="$PROJECT_DIR$/app/main/models.py" />
       </list>
     </option>
   </component>
@@ -243,7 +237,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
+    <option name="x" value="450" />
     <option name="y" value="23" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
@@ -412,8 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="23" width="1371" height="815" extended-state="0" />
-    <editor active="true" />
+    <frame x="450" y="23" width="1371" height="815" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23250565" />
@@ -620,20 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1576159642000" expanded="true" signature="263:264" ph="..." />
-            <marker date="1576159642000" expanded="true" signature="263:269" ph="..." />
-            <marker date="1576159642000" expanded="true" signature="924:929" ph="..." />
-            <marker date="1576159642000" expanded="true" signature="2571:2576" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -667,10 +646,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main/tests/test_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="165">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="96" column="74" selection-start-line="96" selection-start-column="74" selection-end-line="96" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1577967440000" expanded="true" signature="512:513" ph="..." />
+            <marker date="1577967440000" expanded="true" signature="512:518" ph="..." />
+            <marker date="1577967440000" expanded="true" signature="1173:1178" ph="..." />
+            <marker date="1577967440000" expanded="true" signature="2895:2900" ph="..." />
           </folding>
         </state>
       </provider>
