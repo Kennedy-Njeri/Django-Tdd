@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfb030d-76d6-488d-b293-b4a36542763f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
         <counts>
           <entry key="Dockerfile" value="277" />
           <entry key="flake8" value="1" />
-          <entry key="py" value="12817" />
+          <entry key="py" value="12914" />
           <entry key="txt" value="58" />
           <entry key="yml" value="228" />
         </counts>
@@ -54,7 +55,7 @@
         <counts>
           <entry key="Dockerfile" value="277" />
           <entry key="PLAIN_TEXT" value="59" />
-          <entry key="Python" value="12817" />
+          <entry key="Python" value="12914" />
           <entry key="YAML" value="228" />
         </counts>
       </usages-collector>
@@ -62,16 +63,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="233" column="63" lean-forward="true" selection-start-line="233" selection-start-column="63" selection-end-line="233" selection-end-column="63" />
+            <state relative-caret-position="288">
+              <caret line="236" column="45" lean-forward="true" selection-start-line="236" selection-start-column="45" selection-end-line="236" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1577989786000" expanded="true" signature="861:971" ph="..." />
-                <marker date="1577989786000" expanded="true" signature="6711:6716" ph="..." />
-                <marker date="1577989786000" expanded="true" signature="7709:7714" ph="..." />
+                <marker date="1577989961000" expanded="true" signature="861:971" ph="..." />
+                <marker date="1577989961000" expanded="true" signature="6711:6716" ph="..." />
+                <marker date="1577989961000" expanded="true" signature="7719:7724" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,11 +96,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="42" selection-start-line="42" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="720">
+              <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1577962856000" expanded="true" signature="138:143" ph="..." />
+                <marker date="1577990702000" expanded="true" signature="138:143" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,13 +122,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="65" />
+            <state relative-caret-position="-117">
+              <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding>
-                <marker date="1577962851000" expanded="true" signature="1054:1059" ph="..." />
+                <element signature="e#0#44#0" expanded="true" />
+                <marker date="1577992016000" expanded="true" signature="1175:1180" ph="..." />
               </folding>
             </state>
           </provider>
@@ -220,8 +222,6 @@
         <option value="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" />
         <option value="$PROJECT_DIR$/app/main/admin.py" />
         <option value="$PROJECT_DIR$/app/recipe/urls.py" />
-        <option value="$PROJECT_DIR$/app/recipe/views.py" />
-        <option value="$PROJECT_DIR$/app/recipe/serializers.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/app/app/settings.py" />
@@ -229,6 +229,8 @@
         <option value="$PROJECT_DIR$/app/main/tests/test_models.py" />
         <option value="$PROJECT_DIR$/app/main/models.py" />
         <option value="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" />
+        <option value="$PROJECT_DIR$/app/recipe/serializers.py" />
+        <option value="$PROJECT_DIR$/app/recipe/views.py" />
       </list>
     </option>
   </component>
@@ -239,7 +241,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
+    <option name="x" value="525" />
     <option name="y" value="23" />
     <option name="width" value="1371" />
     <option name="height" value="815" />
@@ -408,7 +410,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="23" width="1371" height="815" extended-state="0" />
+    <frame x="525" y="23" width="1371" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -584,27 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <marker date="1577962851000" expanded="true" signature="1054:1059" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="42" selection-start-line="42" selection-end-line="45" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1577962856000" expanded="true" signature="138:143" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -662,13 +643,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="233" column="63" lean-forward="true" selection-start-line="233" selection-start-column="63" selection-end-line="233" selection-end-column="63" />
+        <state relative-caret-position="288">
+          <caret line="236" column="45" lean-forward="true" selection-start-line="236" selection-start-column="45" selection-end-line="236" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1577989786000" expanded="true" signature="861:971" ph="..." />
-            <marker date="1577989786000" expanded="true" signature="6711:6716" ph="..." />
-            <marker date="1577989786000" expanded="true" signature="7709:7714" ph="..." />
+            <marker date="1577989961000" expanded="true" signature="861:971" ph="..." />
+            <marker date="1577989961000" expanded="true" signature="6711:6716" ph="..." />
+            <marker date="1577989961000" expanded="true" signature="7719:7724" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1577990702000" expanded="true" signature="138:143" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <marker date="1577992016000" expanded="true" signature="1175:1180" ph="..." />
           </folding>
         </state>
       </provider>
